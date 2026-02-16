@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>COMP 6062 Lab 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Lab 5
+        </h1>
+    </header>
+    <main>
+        <form id="labForm">
+            <h2>Event Handler Lab</h2>
+            
+            <label for="visibility-select">Display Options:</label>
+            <select id="visibility-select">
+                <option value="hide">Hide Checkbox</option>
+                <option value="show">Show Checkbox</option>
+            </select>
+
+            <div id="extra-content" class="display-none">
+                <input type="checkbox" id="secret-check">
+                <label for="secret-check">Only appear when 'Show' is selected!</label>
+            </div>
+
+            <label for="enter-input">Press Enter here:</label>
+            <input type="text" id="enter-input" placeholder="Type and hit Enter...">
+        </form>
+    </main>
+    <footer>
+        <p>
+            &copy; Shameer Shammi Kafoor 2026
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
